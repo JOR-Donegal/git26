@@ -1,5 +1,5 @@
-# MKTemplate
-Template for new teaching notes
+# GIT26
 
-1. Edit mkdocs to name the project and add a URL
-2. 
+## 25AUG26
+
+Rebuild from old notes
