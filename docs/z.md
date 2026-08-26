@@ -1,5 +1,7 @@
 # Finally
 
+We have scratched the surface and left out many critical features, such as branching. I'll cover branches in a follow up when we look at GITHUB.
+
 ## Binary Files
 
 When I’m working with some IoT devices, they have binary configurations. Although Git can track these and even identify that files differ, it is primarily a text tool, it doesn’t analyze binary files well.
@@ -19,3 +21,5 @@ If you have just read through these notes, you, will remember nothing!
 - Go through the steps in the walkthrough. These worked when I carried them out but products and operating systems change. If you run into a problem, try to resolve yourself.
 - At the end of all this, you should have a folder called exercise1. We ill need that later.
 - Do a cheat sheet of the basic commands you have learned (in Excel) and save it in your exercise folder.  
+
+And locate a good primary reference source. I use this [site](https://git-scm.com/learn) as mine.
