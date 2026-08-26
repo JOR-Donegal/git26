@@ -41,8 +41,11 @@ Secondly, we would need to be able to track any files in the repo considering co
 
 Finally, we should be able to see who did what and when, we call this _blame_. We need the ability to roll-back changes which might have proved problematic, accountability.
 
-Although we can track files individually, for complex projects we track the project as a whole and files are specifically subject to revision control. Where a user needs to edit a file, it is checked out and made available to that user as a working copy. When the user is satisfied with the edit, they can commit the file by saving it and then checking it in, back into the repository.
+Although we can track files individually, for complex projects we track the project as a whole and files are specifically subject to revision control. Where a user needs to edit a file, it is checked out and made available to that user as a working copy. When the user is satisfied with the edit, they can commit the file by saving it and then checking it in, back into the repository. 
 
-Each time a commit occurs, it is identified by a unique revision number and the most recent version is the _HEAD_.
+But I may need to change several files for a single feature add or bug fix. I will make sure each of these files is tracked by using the _ADD_ command. We say this file has been __staged__. When I have made my changes to all these files I will perform a _COMMIT_. Each time a commit occurs, it is identified by a unique revision number and the most recent version is the _HEAD_. A commit is the checkpoint I can revert back to if I need to reverse my changes.
 
 If multiple people are working on the same dataset, then they may produce conflicting edits, and any revision control system will require a protocol for merging changes. Thinking of this in terms of graph theory, the version control system can be viewed as a directed tree with multiple parallel lines of development which may branch and later merge. Multiple users can share a version control system, but it is possible to have conflicts, and, in this case, manual intervention may still be required during merge operations.
+
+The above summary will make more sense after you go through the worked example.
+

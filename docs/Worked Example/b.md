@@ -32,7 +32,7 @@ I can see the git files and directories.
 
 <figure>
 <img src = "https://jor-donegal.github.io/git26/images/fig14.jpg">
-<figcaption>Fig 14. Show all files.</figcaption>
+<figcaption>Fig 14. Show files in .git.</figcaption>
 </figure>
 
 Type
