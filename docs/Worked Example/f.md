@@ -47,4 +47,3 @@ The __diff__ command allows us to track back previous versions and see what chan
 <img src = "https://jor-donegal.github.io/git26/images/fig21.jpg">
 <figcaption>Fig 21. Hash values.</figcaption>
 </figure>
-
